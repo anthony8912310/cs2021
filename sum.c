@@ -16,7 +16,6 @@ int main(int argc, const char * argv[]) {
         product = 1;
         for (int j=1; j<=m; j++) {
             product*=i;
-            printf("%llu\n",product);
         }
         sum += product;
     }
